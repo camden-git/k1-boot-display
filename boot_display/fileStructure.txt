@@ -1,0 +1,4 @@
+root@K1-27FC /root [#] ls /etc/boot-display/
+boot-display.conf  part0
+root@K1-27FC /root [#] ls /etc/boot-display/part0/
+pic_000.jpg pic_001.jpg pic_002.jpg pic_003.jpg... (continues)
