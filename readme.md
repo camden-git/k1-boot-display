@@ -14,11 +14,11 @@ this has only been tested on the normal k1 and k1 max; however, the k1c and k1 m
 
 - errors are now in json format with keys
 - changed saving config file logic
-- chnages to adxl345 code to work with nozzle mcu
+- changes to adxl345 code to work with nozzle mcu
   - this also broke it and made it map Y resonances to X
 - custom macros in python for print starting
 - DirZCtl
-- FanFeedback (unused maybe)
+- FanFeedback (maybe unused)
 - RCTFilter
 - changed power loss handling
 - gcode file metadata reading
