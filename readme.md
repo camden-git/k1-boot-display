@@ -7,15 +7,15 @@ The end goal of this project is to remove all non-open source code from your K1 
 This has only been tested on the normal k1 and k1 max; however, the k1c and k1 max se should work.
 
 - [k1 full control](#k1-full-control)
-  - [software](#software)
-    - [klipper fork](#klipper-fork)
-      - [changelog](#changelog)
-    - [ai app laser](#ai-app-laser)
-    - [boot screen](#boot-screen)
-      - [info](#info)
+  - [overview](#overview)
+  - [klipper fork](#klipper-fork)
+    - [changelog](#changelog)
+  - [ai app laser](#ai-app-laser)
+  - [boot screen](#boot-screen)
+    - [info](#info)
   - [philosophy](#philosophy)
 
-## software
+## overview
 
 The source code for all programs mentioned can be found in each folder along with the shipped binaries.
 None of this decompiled code compiles.... yet. (prs welcome)
@@ -24,11 +24,11 @@ None of this decompiled code compiles.... yet. (prs welcome)
 > Most of this code remains not fully understood, and an even greater portion isn't human readable.
 > Contributions from the community are warmly welcomed.
 
-### klipper fork
+## klipper fork
 
 A diff of this code to stock is in `CrealityKlipper/NOTSTOCKmy_diff.patch`, a human redable format is in `CrealityKlipper/NOTSTOCKdiff.html`.
 
-#### changelog
+### changelog
 
 *WIP*
 
@@ -45,7 +45,7 @@ A diff of this code to stock is in `CrealityKlipper/NOTSTOCKmy_diff.patch`, a hu
 - prTouch
 - deleted random files
 
-### ai app laser
+## ai app laser
 
 Not well documented/decompiled, more to come.
 
@@ -54,11 +54,11 @@ This is a CPython program that seems to work with flow detection using the lidar
 - `/usr/data/creality/tmp/pointCloud/laser_offset_correction_table_pc.temp`
 - `/usr/data/ai_image`
 
-### boot screen
+## boot screen
 
 shows the video (really just image array) that plays while linux and klipper starts
 
-#### info
+### info
 
 - config `/etc/boot-display/boot-display.conf`
 - directory `/etc/boot-display/`
